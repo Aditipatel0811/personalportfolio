@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("rotract.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("IMG-20200301-WA0001.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("Screenshot\ 2023-08-04\ 185224.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+</style>
+</head>
+<body>
+
+<div id="header">ACHIVEMENTS</div>
+
+<div class="parallax"></div>
+
+<div style="height:300px;background-color:black;font-size:36px;">
+<h4 style="color: white;">
+<p style="font-size:medium;"> INTERNATIONAL SERVICE DIRECTOR OF ROTARACT CLUB OF PRECIDENCY COLLEGE :-</p>   
+<p style="font-size:medium;">Rotaract (Rotary-in-action) is a beautiful combination of selfless service towards society 
+  and fellowship. It is a platform where various people get together for the same cause. It supports development in every
+   possible aspect; be it individually, professionally or emotionally. Rotaract brings people aged from 18-30 together 
+   to exchange ideas with the leaders of the community. It helps them develop leadership skills, professional skills and 
+   also teaches them to have fun through service.</p>
+   <p style="font-size:medium;">For more reference kindly visit our club website-<a href="https://rotaractpresidencycollege.com/team-2020-21/">Visit RACPC Website</a>
+    </p>
+</h4>
+</div>
+
+<div class="parallax"></div>
+
+
+<div class="parallax2"></div>
+
+<div style="height:200px;background-color:black;font-size:36px;">
+<h4 style="color: white;">
+<p style="font-size:medium;"> HR INTERN (ACADEMOR) :-</p>   
+<p style="font-size:medium;">Academor is an E-learning platform offering students a holistic learning experience 
+                             helping them become Industry ready.</p>
+<p style="font-size:medium;">For more reference kindly visit company website-<a href="https://www.academor.com/">Visit RACPC Website</a>
+
+</h4>
+</div>
+
+<div class="parallax3"></div>
+<script>
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.fontSize = "30px";
+      } else {
+        document.getElementById("header").style.fontSize = "90px";
+      }
+    }
+    </script>
+    
+</body>
+</html>
